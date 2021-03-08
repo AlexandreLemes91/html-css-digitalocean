@@ -12,7 +12,16 @@ ul{
     margin-bottom: 0px;
 }
 
+input{
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
 /* text */
+
 a{
     color: rgb(3, 28, 78);
 }
@@ -22,12 +31,64 @@ a{
     margin-left: 2px;
 }
 
+
+/* font-size */
+.fw-600{
+    font-weight: 600;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 29px;
+    margin-top: 10px;
+}
+
+.fs-10{
+    font-size: 12px;
+}
+
+.fs-21{
+    font-size: 21px;
+}
+
+/* color */
+.white{
+    color: rgb(255, 255, 255);
+}
+
+.whiteA{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.blue{
+    color: rgb(1, 109, 255);
+}
+
+.dark-blue{
+    color: rgb(3, 28, 78);
+}
+
 /* BUTTON */
 .btn-transparent{
     padding: 10px 15px;
     border: 1px solid rgb(34, 133, 253);
     border-radius: 5px;
     color: rgb(34, 133, 253);;
+}
+.mybtn-block{
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    border: 0px;
+    border-radius: 5px;/* STYLEEEEEEEEE REPEATEDDD********* */
+    color: white;
+    background-color: rgb(87, 154, 255);
+}
+
+.btn-white{
+    color: rgb(98, 98, 98);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px rgb(198, 198, 198);;
 }
 
 /********************************************************************
@@ -55,4 +116,38 @@ header.mynav .row{
 
 .mynav .col-md-4 li{
     margin-left: 12px;
+}
+
+/********************************************************************
+HERO
+********************************************************************/
+.hero{
+    background-image: url(../img/bg-banner-home.jpg);
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.hero form{
+    background-color: white;
+    border-radius: 5px;
+    padding: 43px 20px 32px;
+}
+
+.hero input{
+    box-shadow: none;
+}
+
+.hero .mybtn-block{
+    position: relative;
+}
+
+.hero img{
+    max-height: 20px;
+    position: absolute;
+    left: 8px;
+}
+
+.hero form a:last-child{
+    text-decoration: underline;
 }
