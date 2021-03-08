@@ -151,3 +151,14 @@ HERO
 .hero form a:last-child{
     text-decoration: underline;
 }
+
+/********************************************************************
+CUSTOMERS
+********************************************************************/
+.customers .box{
+    width: calc(100% / 2);
+    height: 50px;
+    float: left;
+    background-color: red;
+    border: 1px solid black;
+} 
