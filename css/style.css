@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(243, 245, 249);
+}
+
+li{
+    display: inline-block;
+    font-size: 15px;
+}
+
+ul{
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+/* text */
+a{
+    color: rgb(3, 28, 78);
+}
+
+.drop::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f078";
+    margin-left: 2px;
+}
+
+/* BUTTON */
+.btn-transparent{
+    padding: 10px 15px;
+    border: 1px solid rgb(34, 133, 253);
+    border-radius: 5px;
+    color: rgb(34, 133, 253);;
+}
+
+/********************************************************************
+HEADER
+********************************************************************/
+header.mynav{
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(34, 133, 253);
+}
+
+header.mynav .row{
+    line-height: 60px;
+}
+
+.mynav .col-xs-6 img{
+    vertical-align: middle;
+    max-width: 160px;
+}
+
+.mynav .col-md-5 li{
+    margin-right: 12px;
+}
+
+.mynav .col-md-4 li{
+    margin-left: 12px;
+}
