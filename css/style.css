@@ -80,6 +80,10 @@ p{
     font-size: 17px;
 }
 
+.fs-18{
+    font-size: 18px;
+}
+
 .fs-20{
     font-size: 20px;
 }
@@ -252,12 +256,16 @@ DEPLOY
 /********************************************************************
 DESIGNED
 ********************************************************************/
-.designed{
+.slide{
     padding: 80px 0 70px;
 }
 
 .designed p{
-    margin: 35px 0 160px;
+    margin-top: 35px;
+}
+
+.designed .row{
+    margin-top: 160px;
 }
 
 .designed .row h4{
@@ -268,14 +276,14 @@ DESIGNED
     margin-top: 90px;
 }
 
-.view{
+.slide .view{
     width: 12px;
     height: 12px;
     border: 1px solid rgb(1, 109, 255);
     border-radius: 50%;
 }
 
-.view-on{
+.slide .view-on{
     background-color: rgb(1, 109, 255);
 }
 
@@ -335,3 +343,40 @@ SERVICE
 .service td:last-child a{
     color: rgb(0, 213, 209);
 }
+
+/********************************************************************
+DEVELOPERS OPINIONS
+********************************************************************/
+.opinions{
+    padding: 85px 0 70px;
+}
+
+.opinions .row{
+    margin-top: 100px;
+}
+
+.opinions .col-xs-8 > div.bg-white{
+    padding-top: 42px;    
+    padding-bottom: 42px;    
+}
+
+.opinions img{
+    width: 300px;
+}
+
+.opinions .col-xs-8 p{
+    margin-top: 25px;
+}
+
+.opinions .col-xs-8 h4{
+    margin-bottom: 0px;
+}
+
+.opinions .col-xs-8 div.link:last-child{
+    margin-top: 35px;
+}
+
+.opinions ul{
+    margin-top: 35px;
+}
+
