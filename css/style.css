@@ -2,11 +2,17 @@ body{
     background-color: rgb(243, 245, 249);
     font-weight: 600;
     padding-bottom: 200px;
+    color: rgb(111, 123, 151);
+}
+
+.test{
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
 }
 
 li{
     display: inline-block;
-    font-size: 15px;
 }
 
 ul{
@@ -36,33 +42,54 @@ a{
     color: rgb(3, 28, 78);
 }
 
+p{
+    font-weight: 400;
+}
+
 .drop::after{
     font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f078";
     margin-left: 2px;
 }
 
-
 /* font-size */
-.fw-600{
-    font-weight: 600;
+.fw-400{
+    font-weight: 400;
 }
 
-h2{
+.fw-600{
     font-weight: 600;
-    font-size: 29px;
-    margin-top: 10px;
 }
 
 .fs-10{
     font-size: 12px;
 }
 
+.fs-15{
+    font-size: 15px;
+}
+
 .fs-16{
     font-size: 16px;
 }
 
-.fs-21{
-    font-size: 21px;
+.fs-17{
+    font-size: 17px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-22-6{
+    font-size: 22.6px;
+}
+
+.fs-29{
+    font-size: 29px;
+}
+
+.fs-32{
+    font-size: 32px;
 }
 
 /* color */
@@ -84,6 +111,11 @@ h2{
 
 .grey{
     color: rgb(111, 123, 151);
+}
+
+/* bg color */
+.bg-white{
+    background-color: rgb(255, 255, 255);
 }
 
 /* BUTTON */
@@ -151,6 +183,10 @@ HERO
     padding: 43px 20px 32px;
 }
 
+.hero h2{
+    margin-top: 10px;
+}
+
 .hero input{
     box-shadow: none;
 }
@@ -184,4 +220,57 @@ CUSTOMERS
 
 .customers li img{
     width: 100%;
+}
+
+/********************************************************************
+DEPLOY
+********************************************************************/
+.deploy{
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.sb-list{
+    padding: 5px 10px;
+    border-left: 1px solid rgb(111, 123, 151);
+    margin-bottom: 30px;
+}
+
+.sb-list li{
+    display: block;
+    margin: 10px 0;
+}
+
+.deploy h3{
+    margin-top: 15px;
+}
+
+/********************************************************************
+DESIGNED
+********************************************************************/
+.designed{
+    padding: 80px 0 70px;
+}
+
+.designed p{
+    margin: 35px 0 160px;
+}
+
+.designed .row h4{
+    margin-top: 25px;
+}
+
+.designed ul{
+    margin-top: 90px;
+}
+
+.view{
+    width: 12px;
+    height: 12px;
+    border: 1px solid rgb(1, 109, 255);
+    border-radius: 50%;
+}
+
+.view-on{
+    background-color: rgb(1, 109, 255);
 }
