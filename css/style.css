@@ -64,6 +64,10 @@ p{
     font-size: 12px;
 }
 
+.fs-13{
+    font-size: 13px;
+}
+
 .fs-15{
     font-size: 15px;
 }
@@ -284,4 +288,50 @@ FEATURES
 
 .features .col-xs-12{
     margin-top: 30px;
+}
+
+/********************************************************************
+SERVICE
+********************************************************************/
+.service{
+    padding: 85px 0;
+    background-image: linear-gradient(0deg, rgb(0, 32, 154), rgb(0, 72, 197));
+}
+
+.service .col-xs-12{
+    margin-top: 30px;
+}
+
+.service tr{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.service tr:last-child{
+    border-bottom: transparent
+}
+
+.service td{
+    padding: 8px 15px;
+}
+
+.service table{
+    width: 100%;
+}
+
+.service td:first-child{
+    width: 18%;
+}
+
+.service td:nth-child(2){
+    color: rgb(163, 184, 228);
+    width: 52%;
+}
+
+.service td:last-child{
+    text-align: right;
+    width: 30%;
+}
+
+.service td:last-child a{
+    color: rgb(0, 213, 209);
 }
