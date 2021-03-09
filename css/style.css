@@ -1,5 +1,7 @@
 body{
     background-color: rgb(243, 245, 249);
+    font-weight: 600;
+    padding-bottom: 200px;
 }
 
 li{
@@ -21,6 +23,14 @@ input{
 }
 
 /* text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: 600;
+}
 
 a{
     color: rgb(3, 28, 78);
@@ -47,6 +57,10 @@ h2{
     font-size: 12px;
 }
 
+.fs-16{
+    font-size: 16px;
+}
+
 .fs-21{
     font-size: 21px;
 }
@@ -66,6 +80,10 @@ h2{
 
 .dark-blue{
     color: rgb(3, 28, 78);
+}
+
+.grey{
+    color: rgb(111, 123, 151);
 }
 
 /* BUTTON */
@@ -97,7 +115,6 @@ HEADER
 header.mynav{
     background-color: rgb(255, 255, 255);
     font-size: 18px;
-    font-weight: 600;
     color: rgb(34, 133, 253);
 }
 
@@ -155,10 +172,16 @@ HERO
 /********************************************************************
 CUSTOMERS
 ********************************************************************/
-.customers .box{
-    width: calc(100% / 2);
-    height: 50px;
-    float: left;
-    background-color: red;
-    border: 1px solid black;
-} 
+.customers{
+    padding-bottom: 35px;
+    padding-top: 50px;
+}
+.customers .container ul li{
+/*     width: calc((100% - 30px) / 6 - 20px); */
+    width: calc((100% - 30px) / 2 - 20px);
+    margin: 10px;
+}
+
+.customers li img{
+    width: 100%;
+}
