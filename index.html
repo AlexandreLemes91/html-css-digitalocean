@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <!-- style -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- tablet -->
+    <link rel="stylesheet" href="./css/styleTablet.css">
+    <!-- desktop -->
+    <link rel="stylesheet" href="./css/styleDesktop.css">
 </head>
 <body>
 
@@ -22,7 +26,7 @@
                     <img src="./img/logo.png" alt="">
                 </div>
                 <div class="col-md-5 visible-md visible-lg">
-                    <ul>
+                    <ul class="fs-15">
                         <li><a class="drop" href="">Products</a></li>
                         <li><a href="">Customers</a></li>
                         <li><a class="drop" href="">Community</a></li>
@@ -31,7 +35,7 @@
                 </div>
                 <div class=" text-right col-xs-6 col-md-4">
                     <div>
-                        <ul class="visible-md visible-lg">
+                        <ul class=" fs-15 visible-md visible-lg">
                             <li><a href="">Docs</a></li>
                             <li><a href="">Support</a></li>
                             <li><a href="">Login</a></li>
@@ -52,12 +56,12 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-7">
                         <h1 class="white ">The simplest cloud platform for developers & teams</h1>
-                        <p class="whiteA fs-21">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make  managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+                        <p class="whiteA fs-22-6">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make  managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
                     </div>
                     <div class="col-xs-12 col-sm-5">
                         <form class="text-center ">
-                            <h2 class="dark-blue">Deploy your app in seconds.</h2>
-                            <h2 class="blue">Get started now.</h2>
+                            <h2 class="fs-29 dark-blue">Deploy your app in seconds.</h2>
+                            <h2 class="fs-29 blue">Get started now.</h2>
                             <input type="email" placeholder="Email">
                             <input type="password" placeholder="Password">
                             <button type="submit" class="mybtn-block">Create Your Account</button>
@@ -76,20 +80,67 @@
         <section class="customers text-center">
             <div class="container">
                 <h4 class="fs-16 grey">INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h4>
-                <div class="container">
-                    <ul>
-                        <li><a href=""><img src="./img/docker.svg" alt=""></a></li>
-                        <li><a href=""><img src="./img/gitlab.svg" alt=""></a></li>
-                        <li><a href=""><img src="./img/slack.svg" alt=""></a></li>
-                        <li><a href=""><img src="./img/hashicorp.svg" alt=""></a></li>
-                        <li><a href=""><img src="./img/hashicorp.svg" alt=""></a></li>
-                        <li><a href=""><img src="./img/splunk.svg" alt=""></a></li>
-                    </ul>
-                </div>
+                <ul>
+                    <li><a href=""><img src="./img/docker.svg" alt=""></a></li>
+                    <li><a href=""><img src="./img/gitlab.svg" alt=""></a></li>
+                    <li><a href=""><img src="./img/slack.svg" alt=""></a></li>
+                    <li><a href=""><img src="./img/hashicorp.svg" alt=""></a></li>
+                    <li><a href=""><img src="./img/hashicorp.svg" alt=""></a></li>
+                    <li><a href=""><img src="./img/splunk.svg" alt=""></a></li>
+                </ul>
                 <a class="blue " href="">View customers stories ></a>
             </div>
-
         </section>
+
+        <!-- Deploy -->
+        <section class="deploy bg-white text-center">
+            <div class="container">
+                <h2 class="fs-32 dark-blue">Deploy and scale seamlessly</h2>
+                <p class="fs-22-6">Our optimized configuration process saves your team time when runninh and scaling distributed applicaiton, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+                <div class="row text-left">
+                    <div class="col-xs-12 col-sm-4">
+                        <ul class="sb-list fw-400 fs-20">
+                            <li>Deploy</li>
+                            <li>Manage</li>
+                            <li>Secure</li>
+                            <li>Scale</li>
+                            <li>Monitor</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6">
+                                <img src="./img/cluster-deploy.svg" alt="">
+                                <h3 class="fs-20 dark-blue">Cluster deployments</h3>
+                                <p class="fs-17">Provision multiple Droplets (virtual machines) in seconds with our control pnael, CLI, or directly aganist our API.</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <img src="./img/optimized-compute.svg" alt="">
+                                <h3 class="fs-20 dark-blue">optimized compute types</h3>
+                                <p class="fs-17">Get the compute resources you need with Standard or Optimized Droplets.</p>
+                            </div>
+<!-- RESPONSIVE CLEAR -->   <div class="clearfix hidden-xs-block"></div> <!-- RESPONSIVE CLEAR -->
+                            <div class="col-xs-12 col-sm-6">
+                                <img src="./img/one-click.svg" alt="">
+                                <h3 class="fs-20 dark-blue">One-click apps</h3>
+                                <p class="fs-17">Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <img src="./img/global.svg" alt="">
+                                <h3 class="fs-20 dark-blue"3>Global availability</h3>
+                                <p class="fs-17">Deploy to any of our data center regions around the world.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Designed for-->
+        <section class="designed">
+            
+        </section>
+
     </main>
 
 </body>
