@@ -132,6 +132,10 @@ p{
     background-color: rgb(255, 255, 255);
 }
 
+.bg-blue{
+    background-color: rgb(1, 109, 255);
+}
+
 .bg-dark-blue{
     background-color: rgb(3, 28, 78);
 }
@@ -160,7 +164,67 @@ p{
 .btn-white{
     color: rgb(98, 98, 98);
     background-color: rgb(255, 255, 255);
-    box-shadow: 1px 1px 1px rgb(198, 198, 198);;
+    box-shadow: 1px 1px 1px rgb(198, 198, 198);
+}
+
+/********************************************************************
+HELPER
+********************************************************************/
+.help{
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    z-index: 10;
+    filter: drop-shadow(1px 1px 1px rgb(148, 148, 148));
+}
+
+.help .img-box{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 3px;
+    padding: 5px 0;
+    top: -15px;
+}
+
+.help .img-box::after{
+    content: "2";
+    position: absolute;
+    top: 0px;
+    right: 0;
+    transform: translate(+50% , -50%);
+    font-size: 15px;
+    height: 30px;
+    width: 30px;
+    padding: 0 5px;
+    background-color: red;
+    color: white;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.img-box img{
+    max-width: 100%;
+}
+
+.help .box{
+    position: relative;
+    width: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9;
+}
+
+.help .box::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -8px;
+    left: 20px;
+    z-index: 5;
 }
 
 /********************************************************************
@@ -235,7 +299,6 @@ CUSTOMERS
     padding-top: 50px;
 }
 .customers .container ul li{
-/*     width: calc((100% - 30px) / 6 - 20px); */
     width: calc((100% - 30px) / 2 - 20px);
     margin: 10px;
 }
