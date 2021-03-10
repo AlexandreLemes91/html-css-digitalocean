@@ -47,7 +47,9 @@ p{
 }
 
 .drop::after{
-    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f078";
     margin-left: 2px;
 }
 
@@ -88,6 +90,10 @@ p{
     font-size: 20px;
 }
 
+.fs-22{
+    font-size: 22px;
+}
+
 .fs-22-6{
     font-size: 22.6px;
 }
@@ -126,12 +132,20 @@ p{
     background-color: rgb(255, 255, 255);
 }
 
+.bg-dark-blue{
+    background-color: rgb(3, 28, 78);
+}
+
+.bg-linear-blue{
+    background-image: linear-gradient(0deg, rgb(0, 32, 154), rgb(0, 72, 197));
+}
+
 /* BUTTON */
 .btn-transparent{
     padding: 10px 15px;
     border: 1px solid rgb(34, 133, 253);
     border-radius: 5px;
-    color: rgb(34, 133, 253);;
+    color: rgb(34, 133, 253);
 }
 .mybtn-block{
     width: 100%;
@@ -303,7 +317,6 @@ SERVICE
 ********************************************************************/
 .service{
     padding: 85px 0;
-    background-image: linear-gradient(0deg, rgb(0, 32, 154), rgb(0, 72, 197));
 }
 
 .service .col-xs-12{
@@ -380,3 +393,52 @@ DEVELOPERS OPINIONS
     margin-top: 35px;
 }
 
+/********************************************************************
+TOP FOOTER
+********************************************************************/
+.top-footer{
+    padding: 80px 0 60px;
+}
+
+/********************************************************************
+BOT FOOTER
+********************************************************************/
+.bot-footer{
+    padding: 55px 0 70px;
+}
+
+.bot-footer h5,
+.bot-footer h6{
+    margin: 0px;
+}
+
+.bot-footer h6{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.bot-footer h5{
+    color: rgb(139, 148, 169);
+    margin-top: 10px;
+}
+
+.bot-footer .contacts li{
+    margin-right: 10px;
+}
+
+.bot-footer .contacts a{
+    color: rgb(111, 123, 151);
+}
+
+.bot-footer .col-md-2{
+    margin-top: 10px;
+}
+
+.bot-footer .link-list li{
+    display: block;
+    margin-top: 5px;
+}
+
+.bot-footer .link-list a{
+    color: rgb(166, 173, 189);
+}
